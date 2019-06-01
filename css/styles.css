@@ -77,14 +77,14 @@ input:not([type="button"]) {
   padding-left: 15px;
 }
 
-/*  input[type="button"] {
-    margin-top: 30px;
-    padding: 10px 35px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+input[type="button"] {
+  margin-top: 30px;
+  padding: 10px 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  #main-form p,
+/*  #main-form p,
   #main-form h2 {
     text-align: center;
   }
