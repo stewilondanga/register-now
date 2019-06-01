@@ -6,9 +6,9 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 const form = document.getElementById('main-form');
-		const form_main = document.getElementById('intro');
+/*		const form_main = document.getElementById('intro');
 		const signInLink = document.querySelectorAll('.link-btn');
 		const signUpLink = document.querySelectorAll('.su_link-btn');
 
