@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,109 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Telex");
+  body {
+    background-color: #ffe53b;
+    background: no-repeat center center fixed linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+    background-size: cover;
+
+  }
+
+  div:not(.grp-input) {
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  body {
+    font-family: "Telex", sans-serif;
+  }
+
+  form {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  input,
+  label {
+    display: block;
+  }
+
+  label {
+    padding-bottom: 5px;
+  }
+
+  .grp-input {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input::placeholder {
+    color: #FFB436;
+    font-weight: 600;
+  }
+
+  input:not([type="button"]) {
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    margin: 5px auto;
+    border: #FF2E26 1px solid;
+    padding-left: 15px;
+  }
+
+  input[type="button"] {
+    margin-top: 30px;
+    padding: 10px 35px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #main-form p,
+  #main-form h2 {
+    text-align: center;
+  }
+
+  div#intro,
+  div#main-form {
+    text-align: center;
+    margin-top: 5%;
+    width: 70%;
+  }
+
+  div#intro form label,
+  div#main-form form label {
+    text-align: left;
+  }
+
+  div#main-form {
+    display: none;
+  }
+
+  button.link-btn,
+  button.su_link-btn {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+  }
 
 .containers {
   width: 520px;
