@@ -49,12 +49,12 @@ form {
   margin: 0 auto;
 }
 
-/*  input,
-  label {
-    display: block;
-  }
+input,
+label {
+  display: block;
+}
 
-  label {
+/*  label {
     padding-bottom: 5px;
   }
 
