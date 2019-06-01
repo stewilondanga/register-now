@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Telex");
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,7 +22,6 @@
   height: 1.5em;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Telex");
   body {
     background-color: #ffe53b;
     background: no-repeat center center fixed linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
