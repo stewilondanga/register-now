@@ -54,11 +54,11 @@ label {
   display: block;
 }
 
-/*  label {
-    padding-bottom: 5px;
-  }
+label {
+  padding-bottom: 5px;
+}
 
-  .grp-input {
+/*  .grp-input {
     display: flex;
     justify-content: space-between;
   }
