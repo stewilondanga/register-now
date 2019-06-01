@@ -34,16 +34,16 @@ div:not(.grp-input) {
   padding-bottom: 10px;
 }
 
-/*  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Fira Sans", sans-serif;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+}
 
-
+/*
   form {
     width: 90%;
     padding: 10px;
