@@ -101,11 +101,11 @@ div#main-form form label {
   text-align: left;
 }
 
-/*  div#main-form {
-    display: none;
-  }
+div#main-form {
+  display: none;
+}
 
-  button.link-btn,
+/*  button.link-btn,
   button.su_link-btn {
     background: none !important;
     color: inherit;
