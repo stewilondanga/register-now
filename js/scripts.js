@@ -1,12 +1,12 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
-
+/*
 const form = document.getElementById('main-form');
 		const form_main = document.getElementById('intro');
 		const signInLink = document.querySelectorAll('.link-btn');
