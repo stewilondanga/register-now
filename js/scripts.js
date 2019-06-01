@@ -35,4 +35,4 @@ showSignUpform = (e) => {
 }
 
 signInLink.forEach(btns => btns.addEventListener('click', showSignInform));
-/*		signUpLink.forEach( btns => btns.addEventListener('click', showSignUpform));
+signUpLink.forEach(btns => btns.addEventListener('click', showSignUpform));
