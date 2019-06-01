@@ -84,12 +84,12 @@ input[type="button"] {
   margin-left: auto;
 }
 
-/*  #main-form p,
-  #main-form h2 {
-    text-align: center;
-  }
+#main-form p,
+#main-form h2 {
+  text-align: center;
+}
 
-  div#intro,
+/*  div#intro,
   div#main-form {
     text-align: center;
     margin-top: 5%;
