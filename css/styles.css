@@ -96,12 +96,12 @@ div#main-form {
   width: 70%;
 }
 
-/*  div#intro form label,
-  div#main-form form label {
-    text-align: left;
-  }
+div#intro form label,
+div#main-form form label {
+  text-align: left;
+}
 
-  div#main-form {
+/*  div#main-form {
     display: none;
   }
 
