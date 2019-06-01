@@ -89,14 +89,14 @@ input[type="button"] {
   text-align: center;
 }
 
-/*  div#intro,
-  div#main-form {
-    text-align: center;
-    margin-top: 5%;
-    width: 70%;
-  }
+div#intro,
+div#main-form {
+  text-align: center;
+  margin-top: 5%;
+  width: 70%;
+}
 
-  div#intro form label,
+/*  div#intro form label,
   div#main-form form label {
     text-align: left;
   }
