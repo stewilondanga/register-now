@@ -6,6 +6,10 @@ body {
   background-size: cover;
 }
 
+body {
+  font-family: "Telex", sans-serif;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -21,16 +25,16 @@ body {
   height: 1.5em;
 }
 
-/*  div:not(.grp-input) {
-    background: #fff;
-    width: 80%;
-    margin: auto;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+div:not(.grp-input) {
+  background: #fff;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  h1,
+/*  h1,
   h2,
   h3,
   h4,
@@ -39,9 +43,6 @@ body {
     font-family: "Fira Sans", sans-serif;
   }
 
-  body {
-    font-family: "Telex", sans-serif;
-  }
 
   form {
     width: 90%;
