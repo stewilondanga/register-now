@@ -22,17 +22,17 @@ showSignInform = (e) => {
     mainIntro.style.display = 'block';
   }
 }
-/*
-		showSignUpform = (e) => {
-			const mainIntro = e.target.parentNode.parentNode;
-			if (form_main.style.display === 'none') {
-				form_main.style.display = 'block';
-				mainIntro.style.display = 'none';
-			} else  {
-				form_main.style.display = 'none';
-				mainIntro.style.display = 'block';
-			}
-		}
 
-		signInLink.forEach( btns => btns.addEventListener('click', showSignInform));
+showSignUpform = (e) => {
+  const mainIntro = e.target.parentNode.parentNode;
+  if (form_main.style.display === 'none') {
+    form_main.style.display = 'block';
+    mainIntro.style.display = 'none';
+  } else {
+    form_main.style.display = 'none';
+    mainIntro.style.display = 'block';
+  }
+}
+
+/*		signInLink.forEach( btns => btns.addEventListener('click', showSignInform));
 		signUpLink.forEach( btns => btns.addEventListener('click', showSignUpform));
