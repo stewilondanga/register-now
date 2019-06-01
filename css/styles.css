@@ -17,12 +17,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-
-  div:not(.grp-input) {
+/*  div:not(.grp-input) {
     background: #fff;
     width: 80%;
     margin: auto;
