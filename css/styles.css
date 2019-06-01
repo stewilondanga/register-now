@@ -58,12 +58,12 @@ label {
   padding-bottom: 5px;
 }
 
-/*  .grp-input {
-    display: flex;
-    justify-content: space-between;
-  }
+.grp-input {
+  display: flex;
+  justify-content: space-between;
+}
 
-  input::placeholder {
+/*  input::placeholder {
     color: #FFB436;
     font-weight: 600;
   }
