@@ -43,14 +43,13 @@ h6 {
   font-family: "Fira Sans", sans-serif;
 }
 
-/*
-  form {
-    width: 90%;
-    padding: 10px;
-    margin: 0 auto;
-  }
+form {
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+}
 
-  input,
+/*  input,
   label {
     display: block;
   }
